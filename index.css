@@ -1,0 +1,25 @@
+.pic {
+  position:fixed;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  z-index: -10;
+  zoom: 1;
+}
+
+.control-btn {
+  position: relative;
+  margin: 5px;
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 50%;
+  top: 800px;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.active-btn {
+  position: relative;
+  background-color: white;
+}
